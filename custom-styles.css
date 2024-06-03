@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Licorice&family=Purple+Purse&family=Roboto:wght@400;700&display=swap");
+
+/* BACKGROUNDS */
+.primary-bg {
+  background-color: #ad6546;
+}
+.secondary-bg {
+  background-color: #ffe8d8;
+}
+
+/* FONTS */
+.primary-font {
+  font-family: "Inconsolata", monospace;
+}
+
+.menu-font {
+  font-family: "Purple Purse", serif;
+}
+
+.title-font {
+  font-family: "Dancing Script", cursive;
+}
+
+.font-white {
+  color: #fff;
+}
+
+.menu_link {
+  color: #fff;
+  text-decoration: none;
+}
