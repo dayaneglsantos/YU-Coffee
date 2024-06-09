@@ -74,6 +74,10 @@ nav ul li:hover {
   gap: 64px;
   margin: 32px auto 64px;
   width: 80%;
+
+  /* @media (max-width: 767px) {
+    grid-template-columns: 1fr 1fr;
+  } */
 }
 
 .card {
@@ -185,6 +189,10 @@ video {
   padding: 8px 16px;
   outline: none;
   border-radius: 8px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 }
 
 #contact input {
@@ -196,6 +204,10 @@ video {
   outline: none;
   border-radius: 8px;
   display: block;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 }
 
 input:focus,
@@ -217,7 +229,7 @@ textarea:focus {
   margin: 0 auto;
 
   @media (max-width: 768px) {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
 
